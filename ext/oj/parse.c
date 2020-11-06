@@ -263,6 +263,10 @@ read_escaped_str(ParseInfo pi, const char *start) {
 		}
 		break;
 	    default:
+		if (CompatMode == pi->options.mode) {
+		    buf_append(&buf, *s);
+		    break;
+		}
 		pi->cur = s;
 		oj_set_error_at(pi, oj_parse_error_class, __FILE__, __LINE__, "invalid escaped character");
 		buf_cleanup(&buf);
