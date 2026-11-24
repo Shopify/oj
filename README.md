@@ -1,3 +1,5 @@
+> **This repository is no longer maintained.** It has been archived and receives no updates or security fixes.
+
 # [![{}j](http://www.ohler.com/dev/images/oj_comet_64.svg)](http://www.ohler.com/oj) gem
 
 [![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)
